@@ -1,14 +1,13 @@
 # Signum
-text editor
 
 ![Screenshot of lanterns](Screenshot.png)
 
-Signum is a free and open source text editor, that is made with the Godot Engine! It uses the permissive MIT license, so anyone can contribute!
+Signum is a text editor, that is made with the gameengine Godot! 
+MIT license, so anyone can contribute.
 
 ## Downloads
  - [GitHub Releases (Windows, Linux & Mac)](https://github.com/MintStudios/Signum/releases)
- 
- _More download links pending_
+
  
  ## Contributing
  Please feel free to contribute, I am always looking for ways to improve the editor! Signum uses Godot version _**3.2.1**_
