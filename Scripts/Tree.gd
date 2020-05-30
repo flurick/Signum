@@ -21,7 +21,7 @@ func _gui_input(event):
 				remove()
 
 func indent(): #selected into previous in tree 
-	if get_selected().get_prev():
+	if get_selected() and get_selected().get_prev():
 		var target_item_parent = get_selected().get_prev()
 		var target_item = get_selected()
 		var new_target_item = create_item(target_item_parent)
