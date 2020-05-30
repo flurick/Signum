@@ -15,7 +15,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Signum - Loading..."
+config/name="Signum"
+config/description="Text editor"
 run/main_scene="res://Main.tscn"
 boot_splash/image="res://Resources/Logo.png"
 config/icon="res://Resources/Logo.png"
