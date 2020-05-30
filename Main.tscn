@@ -31,19 +31,11 @@ font_data = ExtResource( 4 )
 size = 20
 font_data = ExtResource( 4 )
 
-[node name="Main" type="Control"]
+[node name="Main" type="Panel"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 11 )
 script = ExtResource( 3 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="ColorRect" type="ColorRect" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-color = Color( 0.134937, 0.129135, 0.152344, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -104,7 +96,7 @@ text = ">"
 visible = false
 margin_left = 48.0
 margin_right = 65.0
-margin_bottom = 20.0
+margin_bottom = 22.0
 hint_tooltip = "Indent Node"
 action_mode = 0
 shortcut = SubResource( 2 )
@@ -156,10 +148,10 @@ script = ExtResource( 9 )
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 4.0
-margin_top = 44.0
-margin_right = -4.0
-margin_bottom = -4.0
+margin_left = 5.0
+margin_top = 41.0
+margin_right = -5.0
+margin_bottom = -5.0
 rect_min_size = Vector2( 175, 0 )
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -188,10 +180,10 @@ __meta__ = {
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 4.0
-margin_top = 44.0
-margin_right = -4.0
-margin_bottom = -4.0
+margin_left = 5.0
+margin_top = 41.0
+margin_right = -5.0
+margin_bottom = -5.0
 script = ExtResource( 6 )
 
 [node name="DrawTabs" type="HBoxContainer" parent="HSplitContainer/Sidebar/Settings"]
@@ -353,14 +345,14 @@ __meta__ = {
 }
 
 [node name="Logo" type="TextureRect" parent="Menu"]
+visible = false
 margin_right = 32.0
 margin_bottom = 37.0
 texture = ExtResource( 7 )
 stretch_mode = 4
 
 [node name="FileMenu" type="MenuButton" parent="Menu"]
-margin_left = 36.0
-margin_right = 83.0
+margin_right = 47.0
 margin_bottom = 37.0
 custom_fonts/font = ExtResource( 2 )
 text = "File"
@@ -371,8 +363,8 @@ __meta__ = {
 }
 
 [node name="HelpMenu" type="MenuButton" parent="Menu"]
-margin_left = 87.0
-margin_right = 146.0
+margin_left = 51.0
+margin_right = 110.0
 margin_bottom = 37.0
 custom_fonts/font = ExtResource( 2 )
 text = "Help"
